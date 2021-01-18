@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="0 0 107.6 156" style="enable-background:new 0 0 107.6 156;" xml:space="preserve">
+<style type="text/css">
+  .st57{clip-path:url(#SVGID_116_);fill:#FFFFFF;}
+  .st58{clip-path:url(#SVGID_118_);}
+  .st59{clip-path:url(#SVGID_120_);fill:#ED0C6D;}
+  .st60{clip-path:url(#SVGID_122_);}
+  .st61{clip-path:url(#SVGID_124_);fill:#ED0C6D;}
+  .st62{clip-path:url(#SVGID_126_);}
+  .st63{clip-path:url(#SVGID_128_);fill:#C3E600;}
+  .st64{clip-path:url(#SVGID_130_);}
+  .st65{clip-path:url(#SVGID_132_);fill:#C3E600;}
+</style>
+<g>
+  <g class="st56">
+    <rect x="-5" y="-5" class="st57" width="107.6" height="166"/>
+  </g>
+</g>
+<g>
+  <defs>
+    <path id="SVGID_117_" d="M27.9,148.1c-1.6-5.2-10.3-32.7-14.1-44.6c-7.1-22,7-35.4,21.1-36.2c8.6-0.5,16.2,5.8,22.3,14.1l16,21.6
+      c3.3,4.4-5.6,6.2-3.8,9.5c1.8,3.3,5.1,9.6,5.1,9.6c3.4,6.1,3.8,9.4-0.3,13.6c-4.9,5-5.8,7.9-1.5,17.6c1.1,2.4,2.1,2.6,5,2.6h19.8
+      V0H0v156h23.8C29.2,156,29.6,153.4,27.9,148.1z"/>
+  </defs>
+  <clipPath id="SVGID_118_">
+    <use xlink:href="#SVGID_117_"  style="overflow:visible;"/>
+  </clipPath>
+  <g class="st58">
+    <rect x="-5" y="-5" class="st59" width="107.6" height="166"/>
+  </g>
+</g>
+<g>
+  <defs>
+    <ellipse id="SVGID_121_" cx="45.5" cy="87.8" rx="3.3" ry="3.2"/>
+  </defs>
+  <clipPath id="SVGID_122_">
+    <use xlink:href="#SVGID_121_"  style="overflow:visible;"/>
+  </clipPath>
+  <g class="st60">
+    <rect x="37.3" y="79.5" class="st61" width="16.5" height="16.5"/>
+  </g>
+</g>
+</svg>
