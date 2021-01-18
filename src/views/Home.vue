@@ -17,10 +17,11 @@ export default {
   computed: {
     ...mapGetters('app', {
       data: 'getData',
+      history: 'getHistory',
     }),
   },
   mounted() {
-    if (!this.data.length) {
+    if (!this.data.length && !this.history.length) {
       this.setData();
     }
     this.historyType(HISTORY_TYPES.ALL);
