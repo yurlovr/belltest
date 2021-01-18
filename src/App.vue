@@ -1,14 +1,17 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div
+      id="nav"
+      class="mb-3"
+    >
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/history">History</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,6 +30,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #007bff;
 }
 </style>

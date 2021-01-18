@@ -1,18 +1,35 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Main />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import Main from '@/components/Main';
+import { mapGetters, mapActions } from 'vuex';
+import { HISTORY_TYPES } from '@/const/historyTypes';
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
+    Main,
+  },
+  computed: {
+    ...mapGetters('app', {
+      data: 'getData',
+    }),
+  },
+  mounted() {
+    if (!this.data.length) {
+      this.setData();
+    }
+    this.historyType(HISTORY_TYPES.ALL);
+  },
+  methods: {
+    ...mapActions('app', {
+      setData: 'setDataFromApi',
+      historyType: 'setHistoryType',
+    }),
   },
 };
 </script>
